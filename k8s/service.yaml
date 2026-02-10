@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: pricing
   namespace: canary-demo
+  labels:
+    app: pricing
 spec:
   selector:
     app: pricing
