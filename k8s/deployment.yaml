@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: app-canary:v1
+          image: price-api:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
